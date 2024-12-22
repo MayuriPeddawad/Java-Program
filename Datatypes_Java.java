@@ -14,8 +14,16 @@ public class Datatypes_Java {
 		System.out.println("Float is " + myfloatnum); // Floating point number 
 		System.out.println("Char is " + myletter);  // only one letter is display
 		System.out.println("Boolean is " + mybool);  // return values in True and False 
-        System.out.println("String is " + mytext);	// text format is display	
+                System.out.println("String is " + mytext);	// text format is display	
 	}
 
 }
+
+Notes :
+* primitive Datatypes : byte , short , int , long , float , double , boolean , char 
+	
+  - Widening Casting : byte -> short -> int -> long -> float -> double -> boolean -> char 
+  - Narrowing Casting : double -> float -> long -> int -> char -> short -> byte
+	
+* Non- primitive Datatypes : String , Array , Classes
 
